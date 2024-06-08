@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VidFlow</title>
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/side-menu.css" />
+    <link rel="stylesheet" href="./assets/css/videos.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="header__container">
+        <div id="header__logo">
+          <picture id="logo">
+            <img
+              src="./assets/img/topbar/logo-light-mode.png"
+              alt="VidFlow logo"
+            />
+          </picture>
+        </div>
+
+        <div id="header__search">
+          <form action="#" id="search__form">
+            <div id="search__bar">
+              <input type="search" id="search__input" placeholder="Search" />
+              <a href="#" id="search__keyboard"></a>
+            </div>
+            <button id="search__magnifier">
+              <picture>
+                <img src="./assets/img/topbar/magnifier.png" alt="Maginifier" />
+              </picture>
+            </button>
+
+            <button id="search__microphone">
+              <picture>
+                <img
+                  src="./assets/img/topbar/microphone.png"
+                  alt="Microphone"
+                />
+              </picture>
+            </button>
+          </form>
+        </div>
+
+        <div id="header__icons">
+          <a href="#" class="header__icon" id="icon__camera">
+            <picture>
+              <img src="./assets/img/topbar/camera.png" alt="Camera" />
+            </picture>
+          </a>
+          <a href="#" class="header__icon" id="icon__apss">
+            <picture>
+              <img src="./assets/img/topbar/apps.png" alt="Camera" />
+            </picture>
+          </a>
+          <a href="#" class="header__icon" id="icon__notifications">
+            <picture>
+              <img src="./assets/img/topbar/bell.png" alt="Camera" />
+            </picture>
+          </a>
+          <a href="#" class="header__icon" id="icon__avatar">
+            <picture>
+              <img src="./assets/img/topbar/avatar.png" alt="Camera" />
+            </picture>
+          </a>
+
+          <!-- add switch button -->
+        </div>
+      </nav>
+    </header>
+
+    <aside id="side-menu">
+      <section id="side-menu__1">
+        <ul class="side-menu__list">
+          <li class="side-menu__item">Home</li>
+          <li class="side-menu__item">Explore</li>
+          <li class="side-menu__item">Shorts</li>
+          <li class="side-menu__item">Subscriptions</li>
+          <li class="side-menu__item">Library</li>
+        </ul>
+      </section>
+
+      <section id="side-menu__2">
+        <ul class="side-menu__list">
+          <li class="side-menu__item">History</li>
+          <li class="side-menu__item">Watch later</li>
+          <li class="side-menu__item">Liked videos</li>
+        </ul>
+      </section>
+
+      <section id="side-menu__subscriptions">
+        <p class="side-menu__title">SUBSCRIPTIONS</p>
+        <ul class="side-menu__list">
+          <li class="side-menu__item">Alura</li>
+          <li class="side-menu__item">Gaveta</li>
+          <li class="side-menu__item">Jovem Nerd</li>
+          <!-- javascript -->
+          <li class="side-menu__item" id="side-menu__show-more">Show more 2</li>
+        </ul>
+      </section>
+
+      <section id="side-menu__more">
+        <p class="side-menu__title">MORE</p>
+        <ul class="side-menu__list">
+          <li class="side-menu__item">Premium</li>
+          <li class="side-menu__item">Films</li>
+          <li class="side-menu__item">Games</li>
+        </ul>
+      </section>
+    </aside>
+
+    <main id="videos"></main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

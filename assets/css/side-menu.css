@@ -1,0 +1,91 @@
+#side-menu {
+  height: 90%;
+  width: 15%;
+  font-size: 1rem;
+}
+
+#side-menu__1,
+#side-menu__2,
+#side-menu__subscriptions {
+  border-bottom: 1px solid var(--dark-blue);
+}
+
+.side-menu__title {
+  margin: 1rem 0 0 1rem;
+}
+
+.side-menu__list {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.side-menu__item {
+  margin-bottom: 0.75rem;
+  padding-left: 1.7rem;
+}
+
+.side-menu__item::before {
+  content: "";
+  height: 1.1rem;
+  width: 1.1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1rem;
+}
+
+#side-menu__show-more::before {
+  background-image: url(../img/sidebar/arrow_down.png);
+  width: 0.8rem;
+  top: 54vh;
+}
+
+/* first section */
+#side-menu__1 .side-menu__item:nth-child(1)::before {
+  background-image: url(../img/sidebar/home.png);
+}
+#side-menu__1 .side-menu__item:nth-child(2)::before {
+  background-image: url(../img/sidebar/explore.png);
+  width: 1rem;
+}
+#side-menu__1 .side-menu__item:nth-child(3)::before {
+  background-image: url(../img/sidebar/shorts.png);
+}
+#side-menu__1 .side-menu__item:nth-child(4)::before {
+  background-image: url(../img/sidebar/subscriptions.png);
+}
+#side-menu__1 .side-menu__item:nth-child(5)::before {
+  background-image: url(../img/sidebar/video_library.png);
+}
+
+/* second section */
+#side-menu__2 .side-menu__item:nth-child(1)::before {
+  background-image: url(../img/sidebar/history.png);
+}
+#side-menu__2 .side-menu__item:nth-child(2)::before {
+  background-image: url(../img/sidebar/watch_later.png);
+}
+#side-menu__2 .side-menu__item:nth-child(3)::before {
+  background-image: url(../img/sidebar/liked.png);
+}
+
+/* third section */
+#side-menu__subscriptions .side-menu__item:nth-child(1)::before {
+  background-image: url(../img/sidebar/Avatar_Alura.png);
+}
+#side-menu__subscriptions .side-menu__item:nth-child(2)::before {
+  background-image: url(../img/sidebar/Avatar_Gaveta.png);
+}
+#side-menu__subscriptions .side-menu__item:nth-child(3)::before {
+  background-image: url(../img/sidebar/Avatar_Jovem_Nerd.png);
+}
+
+/* fourth section */
+#side-menu__more .side-menu__item:nth-child(1)::before {
+  background-image: url(../img/sidebar/premium.png);
+}
+#side-menu__more .side-menu__item:nth-child(2)::before {
+  background-image: url(../img/sidebar/films.png);
+}
+#side-menu__more .side-menu__item:nth-child(3)::before {
+  background-image: url(../img/sidebar/games.png);
+}
