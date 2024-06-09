@@ -34,58 +34,58 @@
 }
 
 #side-menu__show-more::before {
-  background-image: url(../img/sidebar/arrow_down.png);
+  background-image: url(../img/side-menu/arrow_down.png);
   width: 0.8rem;
   top: 54vh;
 }
 
 /* first section */
 #side-menu__1 .side-menu__item:nth-child(1)::before {
-  background-image: url(../img/sidebar/home.png);
+  background-image: url(../img/side-menu/home.png);
 }
 #side-menu__1 .side-menu__item:nth-child(2)::before {
-  background-image: url(../img/sidebar/explore.png);
+  background-image: url(../img/side-menu/explore.png);
   width: 1rem;
 }
 #side-menu__1 .side-menu__item:nth-child(3)::before {
-  background-image: url(../img/sidebar/shorts.png);
+  background-image: url(../img/side-menu/shorts.png);
 }
 #side-menu__1 .side-menu__item:nth-child(4)::before {
-  background-image: url(../img/sidebar/subscriptions.png);
+  background-image: url(../img/side-menu/subscriptions.png);
 }
 #side-menu__1 .side-menu__item:nth-child(5)::before {
-  background-image: url(../img/sidebar/video_library.png);
+  background-image: url(../img/side-menu/video_library.png);
 }
 
 /* second section */
 #side-menu__2 .side-menu__item:nth-child(1)::before {
-  background-image: url(../img/sidebar/history.png);
+  background-image: url(../img/side-menu/history.png);
 }
 #side-menu__2 .side-menu__item:nth-child(2)::before {
-  background-image: url(../img/sidebar/watch_later.png);
+  background-image: url(../img/side-menu/watch_later.png);
 }
 #side-menu__2 .side-menu__item:nth-child(3)::before {
-  background-image: url(../img/sidebar/liked.png);
+  background-image: url(../img/side-menu/liked.png);
 }
 
 /* third section */
 #side-menu__subscriptions .side-menu__item:nth-child(1)::before {
-  background-image: url(../img/sidebar/Avatar_Alura.png);
+  background-image: url(../img/side-menu/Avatar_Alura.png);
 }
 #side-menu__subscriptions .side-menu__item:nth-child(2)::before {
-  background-image: url(../img/sidebar/Avatar_Gaveta.png);
+  background-image: url(../img/side-menu/Avatar_Gaveta.png);
 }
 #side-menu__subscriptions .side-menu__item:nth-child(3)::before {
-  background-image: url(../img/sidebar/Avatar_Jovem_Nerd.png);
+  background-image: url(../img/side-menu/Avatar_Jovem_Nerd.png);
 }
 
 /* fourth section */
 #side-menu__more .side-menu__item:nth-child(1)::before {
-  background-image: url(../img/sidebar/premium.png);
+  background-image: url(../img/side-menu/premium.png);
 }
 #side-menu__more .side-menu__item:nth-child(2)::before {
-  background-image: url(../img/sidebar/films.png);
+  background-image: url(../img/side-menu/films.png);
 }
 #side-menu__more .side-menu__item:nth-child(3)::before {
-  background-image: url(../img/sidebar/games.png);
+  background-image: url(../img/side-menu/games.png);
 }
