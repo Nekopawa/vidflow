@@ -3,9 +3,9 @@
 :root {
   --white: #ffffff;
   --grey: #ececec;
+  --black: #000000;
   --dark-blue: #6a89af;
   font-family: "Roboto";
-  box-sizing: border-box;
 }
 
 * {
@@ -26,4 +26,10 @@ ul {
 
 li {
   list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: var(--black);
 }

@@ -1,0 +1,37 @@
+#videos__top-menu {
+  height: 7%;
+  width: 100%;
+  border: 2px solid var(--dark-blue);
+  border-style: solid none;
+}
+
+#top-menu__list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.top-menu__list-item {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey);
+  padding: 1rem;
+  border-radius: 50px;
+}
+
+#top-menu__button {
+  height: 100%;
+  width: 40px;
+  background-color: var(--white);
+  background-image: url(../img/top-menu/arrow_forward.png);
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+}

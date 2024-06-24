@@ -88,44 +88,67 @@
     <aside id="side-menu">
       <section id="side-menu__1">
         <ul class="side-menu__list">
-          <li class="side-menu__item">Home</li>
-          <li class="side-menu__item">Explore</li>
-          <li class="side-menu__item">Shorts</li>
-          <li class="side-menu__item">Subscriptions</li>
-          <li class="side-menu__item">Library</li>
+          <li class="side-menu__item"><a href="#">Home</a></li>
+          <li class="side-menu__item"><a href="#">Explore</a></li>
+          <li class="side-menu__item"><a href="#">Shorts</a></li>
+          <li class="side-menu__item"><a href="#">Subscriptions</a></li>
+          <li class="side-menu__item"><a href="#">Library</a></li>
         </ul>
       </section>
 
       <section id="side-menu__2">
         <ul class="side-menu__list">
-          <li class="side-menu__item">History</li>
-          <li class="side-menu__item">Watch later</li>
-          <li class="side-menu__item">Liked videos</li>
+          <li class="side-menu__item"><a href="#">History</a></li>
+          <li class="side-menu__item"><a href="#">Watch later</a></li>
+          <li class="side-menu__item"><a href="#">Liked videos</a></li>
         </ul>
       </section>
 
       <section id="side-menu__subscriptions">
         <p class="side-menu__title">SUBSCRIPTIONS</p>
         <ul class="side-menu__list">
-          <li class="side-menu__item">Alura</li>
-          <li class="side-menu__item">Gaveta</li>
-          <li class="side-menu__item">Jovem Nerd</li>
+          <li class="side-menu__item"><a href="#">Alura</a></li>
+          <li class="side-menu__item"><a href="#">Gaveta</a></li>
+          <li class="side-menu__item"><a href="#">Jovem Nerd</a></li>
           <!-- javascript -->
-          <li class="side-menu__item" id="side-menu__show-more">Show more 2</li>
+          <li class="side-menu__item" id="side-menu__show-more">
+            <a href="#">Show more 2</a>
+          </li>
         </ul>
       </section>
 
       <section id="side-menu__more">
         <p class="side-menu__title">MORE</p>
         <ul class="side-menu__list">
-          <li class="side-menu__item">Premium</li>
-          <li class="side-menu__item">Films</li>
-          <li class="side-menu__item">Games</li>
+          <li class="side-menu__item"><a href="#">Premium</a></li>
+          <li class="side-menu__item"><a href="#">Films</a></li>
+          <li class="side-menu__item"><a href="#">Games</a></li>
         </ul>
       </section>
     </aside>
 
-    <main id="videos"></main>
+    <main id="videos">
+      <nav id="videos__top-menu">
+        <ul id="top-menu__list">
+          <li class="top-menu__list-item"><a href="#">All</a></li>
+          <li class="top-menu__list-item"><a href="#">Debates</a></li>
+          <li class="top-menu__list-item"><a href="#">Live</a></li>
+          <li class="top-menu__list-item"><a href="#">Podcasts</a></li>
+          <li class="top-menu__list-item"><a href="#">Front-end</a></li>
+          <li class="top-menu__list-item"><a href="#">Mobile</a></li>
+          <li class="top-menu__list-item"><a href="#">Data Science</a></li>
+          <li class="top-menu__list-item"><a href="#">Apps</a></li>
+          <li class="top-menu__list-item"><a href="#">Programming</a></li>
+          <li class="top-menu__list-item">
+            <a href="#">Artificial Intelligence</a>
+          </li>
+          <li class="top-menu__list-item"><a href="#">Inovation</a></li>
+          <button class="top-menu__list-item" id="top-menu__button"></button>
+        </ul>
+      </nav>
+
+      <section id="videos__container"></section>
+    </main>
 
     <script src="./assets/js/main.js"></script>
   </body>

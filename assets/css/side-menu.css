@@ -7,7 +7,7 @@
 #side-menu__1,
 #side-menu__2,
 #side-menu__subscriptions {
-  border-bottom: 1px solid var(--dark-blue);
+  border-bottom: 2px solid var(--dark-blue);
 }
 
 .side-menu__title {
@@ -19,7 +19,7 @@
 }
 
 .side-menu__item {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   padding-left: 1.7rem;
 }
 
@@ -31,12 +31,13 @@
   background-repeat: no-repeat;
   position: absolute;
   left: 1rem;
+  cursor: pointer;
 }
 
 #side-menu__show-more::before {
   background-image: url(../img/side-menu/arrow_down.png);
   width: 0.8rem;
-  top: 54vh;
+  margin-top: 5px;
 }
 
 /* first section */
