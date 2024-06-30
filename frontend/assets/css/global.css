@@ -17,6 +17,7 @@ body {
   width: 100vw;
   display: flex;
   flex-flow: row wrap;
+  background-color: antiquewhite; /* remove */
 }
 
 ul {
@@ -32,4 +33,8 @@ a,
 a:visited {
   text-decoration: none;
   color: var(--black);
+}
+
+p {
+  margin: 0;
 }
