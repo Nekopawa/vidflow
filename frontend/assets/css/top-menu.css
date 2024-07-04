@@ -1,6 +1,6 @@
-#videos__top-menu {
-  height: 7%;
-  width: 100%;
+#top-menu {
+  height: 7vh;
+  width: 85vw;
   border: 2px solid var(--dark-blue);
   border-style: solid none;
 }

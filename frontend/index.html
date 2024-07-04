@@ -25,64 +25,59 @@
   </head>
   <body>
     <header id="header">
-      <nav id="header__container">
-        <div id="header__logo">
-          <picture id="logo">
-            <img
-              src="./assets/img/topbar/logo-light-mode.png"
-              alt="VidFlow logo"
-            />
+      <div id="header__logo">
+        <picture id="logo">
+          <img
+            src="./assets/img/topbar/logo-light-mode.png"
+            alt="VidFlow logo"
+          />
+        </picture>
+      </div>
+
+      <div id="header__search">
+        <form action="#" id="search__form">
+          <div id="search__bar">
+            <input type="search" id="search__input" placeholder="Search" />
+            <a href="#" id="search__keyboard"></a>
+          </div>
+          <button id="search__magnifier">
+            <picture>
+              <img src="./assets/img/topbar/magnifier.png" alt="Maginifier" />
+            </picture>
+          </button>
+
+          <button id="search__microphone">
+            <picture>
+              <img src="./assets/img/topbar/microphone.png" alt="Microphone" />
+            </picture>
+          </button>
+        </form>
+      </div>
+
+      <div id="header__icons">
+        <a href="#" class="header__icon" id="icon__camera">
+          <picture>
+            <img src="./assets/img/topbar/camera.png" alt="Camera" />
           </picture>
-        </div>
+        </a>
+        <a href="#" class="header__icon" id="icon__apss">
+          <picture>
+            <img src="./assets/img/topbar/apps.png" alt="Camera" />
+          </picture>
+        </a>
+        <a href="#" class="header__icon" id="icon__notifications">
+          <picture>
+            <img src="./assets/img/topbar/bell.png" alt="Camera" />
+          </picture>
+        </a>
+        <a href="#" class="header__icon" id="icon__avatar">
+          <picture>
+            <img src="./assets/img/topbar/avatar.png" alt="Camera" />
+          </picture>
+        </a>
 
-        <div id="header__search">
-          <form action="#" id="search__form">
-            <div id="search__bar">
-              <input type="search" id="search__input" placeholder="Search" />
-              <a href="#" id="search__keyboard"></a>
-            </div>
-            <button id="search__magnifier">
-              <picture>
-                <img src="./assets/img/topbar/magnifier.png" alt="Maginifier" />
-              </picture>
-            </button>
-
-            <button id="search__microphone">
-              <picture>
-                <img
-                  src="./assets/img/topbar/microphone.png"
-                  alt="Microphone"
-                />
-              </picture>
-            </button>
-          </form>
-        </div>
-
-        <div id="header__icons">
-          <a href="#" class="header__icon" id="icon__camera">
-            <picture>
-              <img src="./assets/img/topbar/camera.png" alt="Camera" />
-            </picture>
-          </a>
-          <a href="#" class="header__icon" id="icon__apss">
-            <picture>
-              <img src="./assets/img/topbar/apps.png" alt="Camera" />
-            </picture>
-          </a>
-          <a href="#" class="header__icon" id="icon__notifications">
-            <picture>
-              <img src="./assets/img/topbar/bell.png" alt="Camera" />
-            </picture>
-          </a>
-          <a href="#" class="header__icon" id="icon__avatar">
-            <picture>
-              <img src="./assets/img/topbar/avatar.png" alt="Camera" />
-            </picture>
-          </a>
-
-          <!-- add switch button -->
-        </div>
-      </nav>
+        <!-- add switch button -->
+      </div>
     </header>
 
     <aside id="side-menu">
@@ -127,8 +122,8 @@
       </section>
     </aside>
 
-    <main id="videos">
-      <nav id="videos__top-menu">
+    <section id="videos-section">
+      <nav id="top-menu">
         <ul id="top-menu__list">
           <li class="top-menu__list-item"><a href="#">All</a></li>
           <li class="top-menu__list-item"><a href="#">Debates</a></li>
@@ -147,34 +142,9 @@
         </ul>
       </nav>
 
-      <section id="videos__container">
-        <div class="videos__video">
-          <iframe
-            class="video__iframe"
-            src="https://www.youtube.com/embed/PJEcdBgBlVc?si=-aTnbC0NMvpKzy8q"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-          <div class="video__description">
-            <picture class="video__image">
-              <img src="./assets/img/videos/Ellipse 11.png" alt="" />
-            </picture>
-            <p class="video__title">Teste titulo</p>
-            <p class="video__views">10k views</p>
-          </div>
-        </div>
-        <div class="videos__video">teste2</div>
-        <div class="videos__video">teste3</div>
-        <div class="videos__video">teste4</div>
-        <div class="videos__video">teste5</div>
-        <div class="videos__video">teste6</div>
-        <div class="videos__video">teste7</div>
-      </section>
-    </main>
+      <main id="videos__container"></main>
+    </section>
 
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/main.js" type="module"></script>
   </body>
 </html>
