@@ -1,5 +1,5 @@
 #top-menu {
-  height: 7vh;
+  height: 7%;
   width: 85vw;
   border: 2px solid var(--dark-blue);
   border-style: solid none;
@@ -22,6 +22,14 @@
   background-color: var(--grey);
   padding: 1rem;
   border-radius: 50px;
+}
+
+.top-menu__list-item:hover {
+  background-color: var(--light-blue);
+}
+
+.top-menu__list-item:hover > a {
+  color: white;
 }
 
 #top-menu__button {

@@ -6,7 +6,7 @@
       "description": "3 mil visualizações",
       "url": "https://www.youtube.com/embed/y8FeZMv37WU",
       "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-      "category": "Programação"
+      "category": "Programming"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "description": "30 mil visualizações",
       "url": "https://www.youtube.com/embed/jpuJ1qrluoU",
       "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-      "category": "Programação"
+      "category": "Programming"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "description": "2,5 mil visualizações",
       "url": "https://www.youtube.com/embed/h83e1aAM5xQ",
       "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-      "category": "Data Science"
+      "category": "Data-science"
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
       "description": "3,2 mil visualizações",
       "url": "https://www.youtube.com/embed/Nts3P35mHzE",
       "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-      "category": "Data Science"
+      "category": "Data-science"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "description": "1,2 mil visualizações",
       "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
       "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-      "category": "Programação"
+      "category": "Programming"
     },
     {
       "title": "[Casa do Código] Live de lançamento: Navegando no Universo da Programação",
@@ -70,7 +70,7 @@
       "url": "https://www.youtube.com/embed/z43rcfjXOxU",
       "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
       "id": 9,
-      "category": "Ao Vivo"
+      "category": "Live"
     },
     {
       "title": "Guia de carreira Front-end | #HipstersPontoTube",
@@ -86,7 +86,7 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
       "id": 11,
-      "category": "Inovação"
+      "category": "Innovation"
     },
     {
       "title": "Como deixar o Layout Responsivo no seu site | #AluraMais",
@@ -102,7 +102,7 @@
       "url": "https://www.youtube.com/embed/Kk3vBRqKA2o",
       "image": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
       "id": 13,
-      "category": "Inteligência Artificial"
+      "category": "AI"
     }
   ]
 }

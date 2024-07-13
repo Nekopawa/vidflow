@@ -1,5 +1,5 @@
 #videos-section {
-  min-height: 90vh;
+  height: 90vh;
   width: 85vw;
 }
 
@@ -17,6 +17,8 @@
 }
 
 .videos__video {
+  height: 35vh;
+  width: 100%;
 }
 
 .video__iframe {
@@ -27,7 +29,7 @@
 
 .video__description {
   height: 30%;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-flow: column wrap;
 }

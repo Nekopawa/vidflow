@@ -7,6 +7,7 @@ async function getVideos() {
       description: video.description,
       url: video.url,
       image: video.image,
+      category: video.category,
     };
   });
 }
